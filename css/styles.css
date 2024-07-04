@@ -15,6 +15,7 @@ html {
     padding-right: 15%;
     padding-bottom: 50px;
 }
+
 .header {
     display: flex;
     margin-bottom: 50px;
@@ -83,4 +84,43 @@ button {
     background-color: #3882F6;    
     border-radius: 5px;
     padding: 6px;
+}
+
+.info {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 120px;
+}
+
+.card img {
+    max-width: 120px;
+    border-color: #3882F6;
+    border-width: 3px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.card p {
+    text-align: center;
 }
