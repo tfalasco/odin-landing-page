@@ -87,7 +87,7 @@ button {
 
 .hero button {
     color: #E5E7EB;
-    background-color: #3882F6;    
+    background-color: #3882F6;
 }
 
 .info {
@@ -186,3 +186,13 @@ button {
     text-wrap: nowrap;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.footer p {
+    color: #F9FAF8;
+}
