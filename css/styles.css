@@ -6,6 +6,10 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+}
+
 .hero, .footer {
     background-color: #1F2937;
 } 
